@@ -1,0 +1,43 @@
+header {
+    background: #2f3e46;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    border: 1px solid #111;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    width: 400px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+section {
+    width: 80%;
+    margin: auto;
+    background: #dcdcdc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    border-bottom: 1px solid black;
+    font-size: larger;
+    color: black;
+}
+
+footer {
+    background: #2f3e46;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    color: white;
+}
