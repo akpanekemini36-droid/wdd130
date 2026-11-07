@@ -116,11 +116,12 @@ footer {
 }
 
 .box {
-    margin: 1rem auto;
+    margin: 2rem auto;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1rem;
     background-color: #eee;
     color: #000;
     display: block;
     clear: both;
+    max-width: 800px;
 }
