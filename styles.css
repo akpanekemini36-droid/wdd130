@@ -73,7 +73,6 @@ aside {
     background-color: white;
     color: #333;
     text-align: center;
-    max-width: 250px;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
     position: relative;
     height: auto;
@@ -81,18 +80,15 @@ aside {
 
 aside img {
     display: block;
-    width: 400px;
-    height: 250px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
     margin: 1rem auto;
 }
 
 aside h2 {
-    left: 40%;
     font-size: large;
-    top: 20%;
-    color: #008751;
-    width: 30rem;
-    max-width: 250px;
+    color: var(--main-color);
 }
 
 main img.float-right {
