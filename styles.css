@@ -12,11 +12,6 @@ nav {
     background-color: darkblue;
     padding: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 100%;
-}
-
-nav ul {
-    list-style-type: none;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -92,11 +87,12 @@ aside img {
 }
 
 aside h2 {
-    position: absolute;
     left: 40%;
     font-size: large;
     top: 20%;
     color: #008751;
+    width: 30rem;
+    max-width: 250px;
 }
 
 main img.float-right {
